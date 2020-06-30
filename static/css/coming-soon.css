@@ -6,6 +6,7 @@ main {
     background-image: url("../img/adult-computer-eyewear-female-1181325.jpg");
     background-position: center center;
     background-size: auto;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -50,7 +51,7 @@ h3 {
 p {
     font-weight: 400;
     font-size: 1.1rem;
-    line-height: 180%;
+    line-height: 175%;
     letter-spacing: .15rem;
 }
 
@@ -94,18 +95,18 @@ p {
 
 @media screen and (max-width: 540px) {
     h1 {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     h4 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     p {
-        font-size: .9rem;
+        font-size: .85rem;
     }
 }
