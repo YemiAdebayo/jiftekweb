@@ -22,8 +22,8 @@ $(document).ready(function () {
 
         `<div class="slideTextChild">
                     <h1 class=" text-white">
-                        <span class="course-intro">COURSES IN</span><br>
-                        <span id="course-name">CG ANIMATION</span>
+                        <span class="course-intro">WORLD CLASS</span><br>
+                        <span id="course-name">CLOUD SOLUTION &amp; SERVICES</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
                     This is just NOT the same old Animation industry that your older brother may have told you
@@ -40,8 +40,8 @@ $(document).ready(function () {
 
         `<div class="slideTextChild">
                     <h1 class=" text-white">
-                        <span class="course-intro">COURSES IN</span><br>
-                        <span id="course-name">FILM MAKING</span>
+                        <span class="course-intro">BESPOKE</span><br>
+                        <span id="course-name">WEB &amp; APP DEVELOPMENT</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
                     The Foundation module in VFX Academy gives student a thorough understanding the basics
@@ -57,8 +57,24 @@ $(document).ready(function () {
 
         `<div class="slideTextChild">
                     <h1 class=" text-white">
-                        <span class="course-intro">COURSES IN</span><br>
-                        <span id="course-name">VISUAL EFFECTS</span>
+                        <span class="course-intro">EXCELLENT SECURITY &amp;</span><br>
+                        <span id="course-name">COMPLIANCE SERVICES</span>
+                    </h1>
+                    <p class="pb-3 pt-1 text-white paragraph" id="course-content">
+                    This module focuses on teaching fundamental Compositing Techniques as well as Motion Graphics, using After
+                    Effects. Down the lane, students are exposed to advanced Composting Skills in...
+                    </p>
+                    <a href="courses/visual-effects" class="blue" id="course-link">
+                        MORE DETAILS
+                        <span class="pl-2">
+                            <i class="fas fa-angle-double-right"></i>
+                        </span>
+                    </a>
+        </div>`,
+        `<div class="slideTextChild">
+                    <h1 class=" text-white">
+                        <span class="course-intro">QUALITY</span><br>
+                        <span id="course-name">IT CONSULTING SERVICES</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
                     This module focuses on teaching fundamental Compositing Techniques as well as Motion Graphics, using After
@@ -83,14 +99,21 @@ $(document).ready(function () {
         firstTransitionDuration: 20,
         transition: "fade",
         transitionDuration: 4000,
-        slides: [{
-                src: "/static/img/get-the-best-of-cg-animation-from-vfx-academy.webp"
+        slides: [
+            {
+                src: "/static/img/AdobeStock_87909563-scaled.jpeg"
             },
             {
-                src: "/static/img/best-film-making-school-in-nigeria.webp"
+                src: "/static/img/cloud-and-IT-services.webp"
             },
             {
-                src: "/static/img/visual-effect-ghost-rider.webp"
+                src: "/static/img/lockit1920x960.png"
+            },
+            // {
+            //     src: "/static/img/web-development-and-enterprise-solutions.webp"
+            // },
+            {
+                src: "/static/img/rendered.jpg"
             },
         ],
         overlay: "/static/img/01.png",
