@@ -28,7 +28,7 @@ from pages.views import (home_view, coming_soon_view,
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', coming_soon_view, name="home"),
+    path('', home_view, name="home"),
     path('about-us/', about_us_view, name="about-us"),
     path('register/', include('registration.urls')),
     path('courses/', include('courses.urls')),

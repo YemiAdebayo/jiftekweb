@@ -111,8 +111,8 @@ a.home.active:hover {
 .second-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: #000;
-    background: #141518;
+    background: #0D0E10;
+    border-top: .5px solid #06FFFF !important;
 }
 
 .bg-light-ash {

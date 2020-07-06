@@ -7,17 +7,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <meta name="theme-color" content="#040406"> -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon"
         href="{% static 'img/learn-from-the-best-film-cg-animation-and-visual-effects-academy-in-nigeria.jpg' %}">
     <link rel="preload" sizes="192x192"
         href="{% static 'img/learn-from-the-best-film-cg-animation-and-visual-effects-academy-in-nigeria.jpg'  %}"
         as="image">
-    <link rel="icon" sizes="192x192"
-        href="{% static 'img/learn-from-the-best-film-cg-animation-and-visual-effects-academy-in-nigeria.jpg' %}">
-    <meta name="theme-color" content="#0F1127">
-    <!-- <meta name="theme-color" content="#000 "> -->
+    <link rel="icon" sizes="192x192" href="{% static 'img/jiftek-icon.jpg' %}">
+    <meta name="theme-color" content="#0D0E10">
 
     {% block extrametatags %}
     {% endblock %}
@@ -26,9 +23,7 @@
         as="style">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Yeseva+One&display=swap"
         rel="stylesheet">
-
-    <link rel="preload" href="https://kit.fontawesome.com/19353213c2.js" as="script" crossorigin>
-    <script src="https://kit.fontawesome.com/19353213c2.js" crossorigin defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 
     <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin as="style">
@@ -46,11 +41,10 @@
 <body class="col-12 p-0 m-0">
     <header class="m-0 p-0">
         <div class="col-12 m-0 px-2 py-2 mainNav-wrapper row text-white">
-            <a href="{% url 'home' %}" class="mr-auto  logo p-1 my-auto pr-2">
-                <img src=" {% static 'img/learn-from-the-best-film-cg-animation-and-visual-effects-academy-in-nigeria.jpg' %}"
-                    alt="Learn from the best Film, CG Animation, and Visual Effects Academy in Lagos, Nigeria"
-                    class="p-0 my-0 logo-img">
-                VFX ACADEMY
+            <a href="{% url 'home' %}" class="mr-auto  logo my-auto p-2">
+                <img src=" {% static 'img/jiftek-logo.jpg' %}"
+                    alt="Best IT and web development company in Nigeria | Jiftek" class="p-0 my-0 logo-img">
+                JIFTEK
             </a>
             <div class="ml-auto my-auto d-none d-md-block col-md-9">
                 <ul class="col-12 row m-0 ul-md-nav justify-content-center">
