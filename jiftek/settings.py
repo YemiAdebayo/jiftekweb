@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # Own apps here
     'pages',
     'accounts',
+    'services',
     'courses',
     'registration',
 ]
