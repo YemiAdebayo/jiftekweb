@@ -26,9 +26,8 @@ $(document).ready(function () {
                         <span id="course-name">CLOUD SOLUTION &amp; SERVICES</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
-                    This is just NOT the same old Animation industry that your older brother may have told you
-                    about. The most advanced Software tools are now fully utilising the quantum leap in Computer 
-                    Processing Power to...
+                        Get the best of cloud computing through Amazon AWS, Microsoft Azure and Google GCP. Let our experts use cloud services to give your business a competitive 
+                        advantage by providing the most...
                     </p>
                     <a href="courses/cg-animation" class="blue" id="course-link">
                         MORE DETAILS
@@ -44,8 +43,9 @@ $(document).ready(function () {
                         <span id="course-name">WEB &amp; APP DEVELOPMENT</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
-                    The Foundation module in VFX Academy gives student a thorough understanding the basics
-                     of Film Making, Virtual Effects and Animation. This then advances into...
+                      Step into the world of excellence in designing and developing engaging websites 
+                      that tell your brand's unique story. We consult, design & engineer web, 
+                      mobile & custom software solutions...
                     </p>
                     <a href="courses/film-making" class="blue" id="course-link">
                         MORE DETAILS
@@ -57,12 +57,12 @@ $(document).ready(function () {
 
         `<div class="slideTextChild">
                     <h1 class=" text-white">
-                        <span class="course-intro">EXCELLENT SECURITY &amp;</span><br>
-                        <span id="course-name">COMPLIANCE SERVICES</span>
+                        <span class="course-intro">SECURITY & COMPLIANCE;</span><br>
+                        <span id="course-name">CONSULTING SERVICES</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
-                    This module focuses on teaching fundamental Compositing Techniques as well as Motion Graphics, using After
-                    Effects. Down the lane, students are exposed to advanced Composting Skills in...
+                        We identify vulnerabilities in your environment and develop a strategy to remediate & improve
+                        your security posture. Our compliance experts can prepare you for industry and regional directives...
                     </p>
                     <a href="courses/visual-effects" class="blue" id="course-link">
                         MORE DETAILS
@@ -77,8 +77,8 @@ $(document).ready(function () {
                         <span id="course-name">IT CONSULTING SERVICES</span>
                     </h1>
                     <p class="pb-3 pt-1 text-white paragraph" id="course-content">
-                    This module focuses on teaching fundamental Compositing Techniques as well as Motion Graphics, using After
-                    Effects. Down the lane, students are exposed to advanced Composting Skills in...
+                        Developing high impact products that are secure, scalable, meaningful and powerful is what we do.
+                        We innovate product development with our expertise across different industries and converging technologies.
                     </p>
                     <a href="courses/visual-effects" class="blue" id="course-link">
                         MORE DETAILS
@@ -101,13 +101,13 @@ $(document).ready(function () {
         transitionDuration: 4000,
         slides: [
             {
-                src: "/static/img/AdobeStock_87909563-scaled.jpeg"
+                src: "/static/img/best-cloud-solution-and-consultancy-service-in-lagos.webp"
             },
             {
                 src: "/static/img/cloud-and-IT-services.webp"
             },
             {
-                src: "/static/img/lockit1920x960.png"
+                src: "/static/img/excellent-IT-security-and-consultancy-services.webp"
             },
             // {
             //     src: "/static/img/web-development-and-enterprise-solutions.webp"
