@@ -32,7 +32,7 @@ urlpatterns = [
     path('about-us/', about_us_view, name="about-us"),
     path('register/', include('registration.urls')),
     path('courses/', include('courses.urls')),
-    # path('services/', include('services.urls')),
+    path('services/', include('services.urls')),
     path('team-and-facility/', team_and_facility_view, name="team-and-facility"),
 ]
 
