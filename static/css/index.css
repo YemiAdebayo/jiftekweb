@@ -159,7 +159,8 @@ a.home.active:hover {
 }
 
 .third-section img.position-relative {
-    top: 1.2em;
+    /* top: 1.2em; */
+    top: 2em;
     left: .8em;
     border: .5px solid #A6A6A6 !important;
     border-radius: 6px;
