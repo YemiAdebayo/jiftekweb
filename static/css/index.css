@@ -115,26 +115,30 @@ a.home.active:hover {
     border-top: .5px solid #06FFFF !important;
 }
 
-.our-tools-section{
+.our-tools-section {
     padding-top: 50px;
     padding-bottom: 50px;
     border-top: .5px solid #06FFFF !important;
     background-color: #070809;
 }
 
-.our-tools-section>div>div{
+.our-tools-section>div>div {
     padding: 4px;
 }
 
-.our-tools-section>div>div>div{
+.our-tools-section>div>div>div {
     /* background-color: #26273B; */
     background-color: #262A33;
-    min-height: 300px;
+    min-height: 200px;
     border-radius: 5px;
 }
 
-.our-tools-section>div>div>div.first-child{
+.our-tools-section>div>div>div.first-child {
     background-color: transparent;
+}
+
+.our-tools-section>div>div>div img {
+    max-width: 50%;
 }
 
 .bg-light-ash {
