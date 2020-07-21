@@ -5,7 +5,9 @@ from django.conf.urls.static import static
 from django.urls import path
 
 from .views import register_view
+from pages.views import coming_soon_view
 
 urlpatterns = [
-    url(r'', register_view, name="register"),
+    # url(r'', register_view, name="register"),
+    url(r'', coming_soon_view, name="register"),
 ]
