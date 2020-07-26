@@ -42,7 +42,7 @@ a {
 .paragraph {
     line-height: 150%;
     font-weight: 400;
-    font-size: .92em;
+    font-size: .86em;
     letter-spacing: .04em;
 }
 
@@ -160,7 +160,8 @@ a.home.active:hover {
 
 .third-section img.position-relative {
     /* top: 1.2em; */
-    top: 2em;
+    /* top: 2em; */
+    top: 2.5em;
     left: .8em;
     border: .5px solid #A6A6A6 !important;
     border-radius: 6px;
@@ -303,7 +304,7 @@ h4 {
     }
 
     .paragraph {
-        font-size: .9em;
+        font-size: .88em;
         letter-spacing: .03em;
         line-height: 170%;
     }
