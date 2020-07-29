@@ -29,7 +29,7 @@ $(document).ready(function () {
                         Get the best of cloud computing through Amazon AWS, Microsoft Azure and Google GCP. Let our experts use cloud services to give your business a competitive 
                         advantage by providing the most...
                     </p>
-                    <a href="courses/cg-animation" class="blue" id="course-link">
+                    <a href="services/cloud-computing" class="blue" id="course-link">
                         MORE DETAILS
                         <span class="pl-2">
                             <i class="fas fa-angle-double-right"></i>
@@ -47,7 +47,7 @@ $(document).ready(function () {
                       that tell your brand's unique story. We consult, design & engineer web, 
                       mobile & custom software solutions...
                     </p>
-                    <a href="courses/film-making" class="blue" id="course-link">
+                    <a href="services/web-and-app-design" class="blue" id="course-link">
                         MORE DETAILS
                         <span class="pl-2">
                             <i class="fas fa-angle-double-right"></i>
@@ -64,7 +64,7 @@ $(document).ready(function () {
                         We identify vulnerabilities in your environment and develop a strategy to remediate & improve
                         your security posture. Our compliance experts can prepare you for industry and regional directives...
                     </p>
-                    <a href="courses/visual-effects" class="blue" id="course-link">
+                    <a href="services/security-and-compliance" class="blue" id="course-link">
                         MORE DETAILS
                         <span class="pl-2">
                             <i class="fas fa-angle-double-right"></i>
@@ -80,7 +80,7 @@ $(document).ready(function () {
                         Developing high impact products that are secure, scalable, meaningful and powerful is what we do.
                         We innovate product development with our expertise across different industries and converging technologies.
                     </p>
-                    <a href="courses/visual-effects" class="blue" id="course-link">
+                    <a href="services/it-consulting" class="blue" id="course-link">
                         MORE DETAILS
                         <span class="pl-2">
                             <i class="fas fa-angle-double-right"></i>

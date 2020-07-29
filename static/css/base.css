@@ -2,6 +2,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.animate-into-view {
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all .6s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.fadeIn {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 .logo-img {
     width: 80px;
     border-radius: 6px;

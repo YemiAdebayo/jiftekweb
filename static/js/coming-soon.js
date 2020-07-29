@@ -7,7 +7,7 @@ $(document).ready(function () {
         minutes = document.querySelector("#minutes"),
         seconds = document.querySelector("#seconds");
 
-    let countDownDate = new Date(2020, 6, 25, 0, 0, 0);
+    let countDownDate = new Date(2020, 7, 14, 0, 0, 0);
     let millisecsPerDay = 86400000,
         millisecsPerHour = 3600000,
         millisecsPerMin = 60000;

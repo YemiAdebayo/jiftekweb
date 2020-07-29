@@ -178,7 +178,8 @@ a.home.active:hover {
 }
 
 .fourth-section>div {
-    background-image: url("../img/cg-animation-bg.webp");
+    /* background-image: url("../img/cg-animation-bg.webp"); */
+    background-image: url("../img/web-and-app-development-services-1.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
