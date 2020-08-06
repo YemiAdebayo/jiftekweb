@@ -70,7 +70,7 @@ class QuoteFormForFrontend(forms.ModelForm):
     description = forms.CharField(
         max_length=100, label='Describe your project:', widget=forms.Textarea(
             attrs={
-                'class': 'text-input error-handler first_name home-address col-12 rounded-lg py-3',
+                'class': 'text-input error-handler home-address col-12 rounded-lg py-3',
                 'placeholder': 'Describe what your project is all about briefly',
                 'name': 'description'
             }
