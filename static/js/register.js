@@ -31,14 +31,14 @@ $(document).ready(function () {
         e.preventDefault();
 
         var $first_name = $('.first_name'),
-            $last_name = $('.last_name'),
+            // $last_name = $('.last_name'),
             $email = $(".email"),
             $phoneNum = $(".phone-number");
 
-        var clean_Fname = userInputStripper($('.first_name').val()),
-            clean_Lname = userInputStripper($('.last_name').val());
+        var clean_Fname = userInputStripper($('.first_name').val());
+            // clean_Lname = userInputStripper($('.last_name').val());
         $first_name.val(clean_Fname);
-        $last_name.val(clean_Lname);
+        // $last_name.val(clean_Lname);
 
         $(".error-handler").each(function () {
             var $this = $(this);

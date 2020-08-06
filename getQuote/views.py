@@ -12,7 +12,7 @@ def quote_view(request):
             form.save()
             messages.success(
                 request, f'Request successful! You will be contacted by one of our agents within the hour. Thank you!')
-            return redirect('register')
+            return redirect('get-a-quote')
 
     else:
         form = QuoteFormForFrontend()

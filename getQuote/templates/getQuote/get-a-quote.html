@@ -37,12 +37,12 @@
 
 {% block content %}
 <section class=" first-section row col-12 p-0 m-0">
-    <div class="col-md-1 d-none d-md-block px-3 bg-dark">
+    <div class="col-md-1 d-none d-md-block px-3">
     </div>
     <div class="p-0 row col-12 col-md-8 my-0 mx-auto">
         <div class="p-0 col-12">
             <form class="registration-form shadow col-12 bg-grey-dark m-0 pt-0 pb-4 px-0 rounded-lg"
-                action="{% url 'register' %}" method="POST" novalidate id="registration-form">
+                action="{% url 'get-a-quote' %}" method="POST" novalidate id="registration-form">
                 {% if messages %}
                 {% for message in messages %}
                 <div class="alert alert-dismissible fade show alert-primary paragraph my-0 py-3"
@@ -92,8 +92,8 @@
             </form>
         </div>
     </div>
-    <div class="col-md-3 px-1 bg-dark py-2">
-        <div class="bg-white col-12 rounded-lg py-4 my-0 ">
+    <div class="col-md-3 px-1 py-2">
+        {% comment %} <div class="bg-white col-12 rounded-lg py-4 my-0 ">
             <h5 class="text-light-blue p-0 ">
                 <span class="pr-2 text-light-blue">
                     <i class="fas fa-info-circle"></i>
@@ -124,7 +124,7 @@
                     </span>
                     FILM MAKING
                 </a>
-            </div>
+            </div> {% endcomment %}
         </div>
     </div>
 </section>

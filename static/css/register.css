@@ -12,7 +12,8 @@ h6 {
 }
 
 .first-section>div {
-    background: #000;
+    /* background: #000; */
+    background: #0D0E10;
 }
 
 .first-section img {
