@@ -34,6 +34,7 @@ urlpatterns = [
     path('register/', include('registration.urls')),
     path('courses/', include('courses.urls')),
     path('services/', include('services.urls')),
+    path('get-a-quote/', include('getQuote.urls')),
     # path('team-and-facility/', team_and_facility_view, name="team-and-facility"),
     path('team-and-facility/', coming_soon_view, name="team-and-facility"),
 ]

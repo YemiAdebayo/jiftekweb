@@ -129,7 +129,7 @@ a.home.active:hover {
 .our-tools-section>div>div>div {
     /* background-color: #26273B; */
     background-color: #262A33;
-    min-height: 130px;
+    min-height: 210px;
     border-radius: 5px;
 }
 
@@ -308,6 +308,10 @@ h4 {
         font-size: .88em;
         letter-spacing: .03em;
         line-height: 170%;
+    }
+
+    .our-tools-section>div>div>div {
+        min-height: 160px;
     }
 
     h1 {
