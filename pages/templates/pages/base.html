@@ -115,7 +115,7 @@
                         </a>
                     </li>
                     <li class="col-md-3 text-center m-0 register">
-                        <a href="{% url 'register' %}" class="register">
+                        <a href="{% url 'get-a-quote' %}" class="register">
                             <span class="pr-2">
                                 <i class="fas fa-sign-in-alt"></i>
                             </span>
@@ -215,7 +215,7 @@
                         </a>
                     </li>
                     <li class="col-md-3 text-center m-0 register my-1">
-                        <a href="{% url 'register' %}" class="register text-left px-3">
+                        <a href="{% url 'get-a-quote' %}" class="register text-left px-3">
                             <span class="pr-2">
                                 <i class="fas fa-sign-in-alt"></i>
                             </span>
@@ -282,7 +282,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{% url 'register' %}">Get Quote</a>
+                            <a href="{% url 'get-a-quote' %}">Get Quote</a>
                         </li>
                     </ul>
                 </div>
@@ -373,17 +373,19 @@
     <script type="text/javascript" src="{% static 'js/base.js' %}"></script>
     {% block extrascripts %}
     {% endblock %}
-    
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/5f212a025e51983a11f5fd8a/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5f212a025e51983a11f5fd8a/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
     <!--End of Tawk.to Script-->
