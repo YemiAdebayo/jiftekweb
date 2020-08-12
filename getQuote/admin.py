@@ -15,8 +15,8 @@ class QuoteAdminInterface(admin.ModelAdmin):
          'fields': ('name',)}),
         ('Contact Info', {
          'fields': ('phone_number', 'email',)}),
-         ('Study Interest', {
-         'fields': ('project_type',)}),
+         ('Service Information', {
+         'fields': ('project_type', 'description')}),
         ('Status', {
          'fields': ('quote_is_processed',)}),
     )
@@ -27,8 +27,8 @@ class QuoteAdminInterface(admin.ModelAdmin):
          'fields': ('name',)}),
         ('Contact Info', {
          'fields': ('phone_number', 'email',)}),
-         ('Study Interest', {
-         'fields': ('project_type',)}),
+         ('Service Information', {
+         'fields': ('project_type', 'description')}),
         ('Status', {
          'fields': ('quote_is_processed',)}),
     )
