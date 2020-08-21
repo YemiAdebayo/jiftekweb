@@ -13,18 +13,20 @@ from .views import (cloud_services_view,
                     training_serevices_view
                     )
 
-# urlpatterns = [
-#     url(r'^cloud-computing/$', cloud_services_view, name="cloud-computing"),
-#     url(r'^web-and-app-design/$', web_and_app_view, name="web-and-app-design"),
-#     url(r'^it-consulting/$', it_consulting_view, name="it-consulting"),
-#     url(r'^security-and-compliance/$', security_and_compliance_view, name="security-and-compliance"),
-#     url(r'^training/$', training_serevices_view, name="training"),
-# ]
+if settings.DEBUG:
+    urlpatterns = [
+        url(r'^cloud-computing/$', cloud_services_view, name="cloud-computing"),
+        url(r'^web-and-app-design/$', web_and_app_view, name="web-and-app-design"),
+        url(r'^it-consulting/$', it_consulting_view, name="it-consulting"),
+        url(r'^security-and-compliance/$', security_and_compliance_view, name="security-and-compliance"),
+        url(r'^training/$', training_serevices_view, name="training"),
+        ]
+else:
+    urlpatterns = [
+        url(r'^cloud-computing/$', coming_soon_view, name="cloud-computing"),
+        url(r'^web-and-app-design/$', coming_soon_view, name="web-and-app-design"),
+        url(r'^it-consulting/$', coming_soon_view, name="it-consulting"),
+        url(r'^security-and-compliance/$', coming_soon_view, name="security-and-compliance"),
+        url(r'^training/$', coming_soon_view, name="training"),
+        ]
 
-urlpatterns = [
-    url(r'^cloud-computing/$', coming_soon_view, name="cloud-computing"),
-    url(r'^web-and-app-design/$', coming_soon_view, name="web-and-app-design"),
-    url(r'^it-consulting/$', coming_soon_view, name="it-consulting"),
-    url(r'^security-and-compliance/$', coming_soon_view, name="security-and-compliance"),
-    url(r'^training/$', coming_soon_view, name="training"),
-]
