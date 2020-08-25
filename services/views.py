@@ -17,3 +17,6 @@ def security_and_compliance_view(request):
 
 def training_serevices_view(request):
     return render(request, "services/training-serevices.html")
+
+def other_serevices_view(request):
+    return render(request, "services/other-serevices.html")

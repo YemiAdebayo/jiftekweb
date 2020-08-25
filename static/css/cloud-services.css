@@ -102,6 +102,17 @@ ul.custom-list-style>li::before {
     background: linear-gradient(134deg, #3023ae 0%, #c86dd7 100%);
 }
 
+.our-cloud-services-tools>div>div {
+    /* background-color: #26273B; */
+    background-color: #262A33;
+    min-height: 210px;
+    border-radius: 5px;
+}
+
+.our-cloud-services-tools>div>div img {
+    max-width: 50%;
+}
+
 .blue:hover,
 .purple-gradient:active,
 .purple-gradient:hover,
@@ -125,11 +136,16 @@ a.courses.active:hover {
 }
 
 @media screen and (max-width: 540px) {
-    .first-section img {
+    .banner-img img {
         min-height: 225px;
     }
 
     .paragraph {
         font-size: .94em;
     }
+
+    .our-cloud-services-tools>div>div {
+        min-height: 160px;
+    }
+
 }
