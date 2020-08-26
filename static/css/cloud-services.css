@@ -41,6 +41,7 @@ h6 {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15) !important;
 }
 
+
 /* ul.custom-list-style {
     padding: 0;
 } */
@@ -135,17 +136,49 @@ a.courses.active:hover {
     opacity: .8;
 }
 
+.why-choose-jiftek-cloud .card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+.why-choose-jiftek-cloud .aqua-gradient {
+    border-radius: 8px 8px 0 0;
+    height: 6em;
+}
+
+.why-choose-jiftek-cloud .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
 @media screen and (max-width: 540px) {
     .banner-img img {
         min-height: 225px;
     }
-
     .paragraph {
         font-size: .94em;
     }
-
     .our-cloud-services-tools>div>div {
         min-height: 160px;
     }
-
 }
