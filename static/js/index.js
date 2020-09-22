@@ -12,7 +12,7 @@ import {
 let $html = $("html"),
     $body = $("body");
 
-$(document).ready(function () {
+$(document).ready(function() {
 
     $('a.home').addClass('active');
 
@@ -99,8 +99,7 @@ $(document).ready(function () {
         firstTransitionDuration: 20,
         transition: "fade",
         transitionDuration: 4000,
-        slides: [
-            {
+        slides: [{
                 src: "/static/img/best-cloud-solution-and-consultancy-service-in-lagos.webp"
             },
             {
@@ -113,12 +112,12 @@ $(document).ready(function () {
             //     src: "/static/img/web-development-and-enterprise-solutions.webp"
             // },
             {
-                src: "/static/img/rendered.jpg"
+                src: "/static/img/information-technology-consulting-services.webp"
             },
         ],
         overlay: "/static/img/01.png",
 
-        walk: function (index) {
+        walk: function(index) {
 
             // $('#slideText').fadeOut(1500, function () {
             //     $('.slideTextChild').replaceWith(
@@ -132,25 +131,25 @@ $(document).ready(function () {
         },
     });
 
-    $('input, textarea').each(function () {
-        $(this).focus(function () {
+    $('input, textarea').each(function() {
+        $(this).focus(function() {
             $(this).prev().addClass("in-focus");
         });
     });
 
-    $(".error-handler").each(function () {
-        $(this).blur(function () {
+    $(".error-handler").each(function() {
+        $(this).blur(function() {
             var $this = $(this);
             writeInputErrorMessage($this);
         })
-        $(this).focus(function () {
+        $(this).focus(function() {
             var $this = $(this);
             removeInputErrorMessage($this);
         })
     })
 
     let $submitBtn = $(".submit-button");
-    $submitBtn.click(function (e) {
+    $submitBtn.click(function(e) {
         e.preventDefault();
 
         var $full_name = $('.full-name'),
@@ -163,7 +162,7 @@ $(document).ready(function () {
         $full_name.val(clean_Fullname);
         $message.val(clean_message);
 
-        $(".error-handler").each(function () {
+        $(".error-handler").each(function() {
             var $this = $(this);
             writeInputErrorMessage($this);
         })
