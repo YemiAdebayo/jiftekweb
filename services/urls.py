@@ -29,7 +29,7 @@ else:
         url(r'^web-and-app-design/$', web_and_app_view, name="web-and-app-design"),
         url(r'^it-consulting/$', it_consulting_view, name="it-consulting"),
         url(r'^security-and-compliance/$', security_and_compliance_view, name="security-and-compliance"),
-        url(r'^training/$', coming_soon_view, name="training"),
+        url(r'^training/$', training_serevices_view, name="training"),
         url(r'^other-services/$', coming_soon_view, name="other-services"),
         ]
 
