@@ -42,6 +42,7 @@ h6 {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15) !important;
 }
 
+
 /* ul.custom-list-style {
     padding: 0;
 } */
@@ -161,12 +162,9 @@ fieldset:nth-of-type(1) {
     .first-section img {
         min-height: 225px;
     }
-
     fieldset:nth-of-type(1) {
         background-image: url("../img/cloud-and-IT-services-small.webp");
     }
-
-
     .paragraph {
         font-size: .94em;
     }
