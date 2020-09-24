@@ -29,14 +29,11 @@ from pages.views import (home_view, coming_soon_view,
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name="home"),
-    # path('about-us/', about_us_view, name="about-us"),
-    path('about-us/', coming_soon_view, name="about-us"),
-    path('register/', include('registration.urls')),
-    path('courses/', include('courses.urls')),
+    path('about-us/', about_us_view, name="about-us"),
     path('services/', include('services.urls')),
     path('get-a-quote/', include('getQuote.urls')),
     # path('team-and-facility/', team_and_facility_view, name="team-and-facility"),
-    path('team-and-facility/', coming_soon_view, name="team-and-facility"),
+    path('team-and-facility/', about_us_view, name="team-and-facility"),
 ]
 
 

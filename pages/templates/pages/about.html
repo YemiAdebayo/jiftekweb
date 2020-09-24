@@ -1,102 +1,213 @@
-{% extends "pages/base.html" %}
-{% load static %}
-
-{% block extrametatags %}
+{% extends "pages/base.html" %} {% load static %} {% block extrametatags %}
 
 <!-- Primary Meta Tags -->
 <title>Master CG Animation, Visual Effects and Film Making at VFX Academy</title>
 <meta name="title" content="Master CG Animation, Visual Effects and Film Making at VFX Academy">
-<meta name="description"
-    content="Learn Visual Effects from world class experts to jumpstart your career and take the movie industry by storm | Learn With VFX Academy">
-<meta name="keywords"
-    content="CG Animation School, CG Animation Academy, CG Animation Training in Nigeria, CG Animation Professional courses, Learn CG Animation from Experts">
+<meta name="description" content="Learn Visual Effects from world class experts to jumpstart your career and take the movie industry by storm | Learn With VFX Academy">
+<meta name="keywords" content="CG Animation School, CG Animation Academy, CG Animation Training in Nigeria, CG Animation Professional courses, Learn CG Animation from Experts">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{% url 'about-us' %}">
 <meta property="og:title" content="Master CG Animation, Visual Effects and Film Making at VFX Academy">
-<meta property="og:description"
-    content="Learn Visual Effects from world class experts to jumpstart your career and take the movie industry by storm | Learn With VFX Academy">
+<meta property="og:description" content="Learn Visual Effects from world class experts to jumpstart your career and take the movie industry by storm | Learn With VFX Academy">
 <meta property="og:image" content="{% static 'img/image828.png' %}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{% url 'about-us' %}">
 <meta property="twitter:title" content="Master CG Animation, Visual Effects and Film Making at VFX Academy">
-<meta property="twitter:description"
-    content="Learn Visual Effects from world class experts to jumpstart your career and take the movie industry by storm | Learn With VFX Academy">
-<meta property="twitter:image" content="{% static 'img/image828.png' %}">
-{% endblock %}
-
-{% block extrahead %}
+<meta property="twitter:description" content="Learn Visual Effects from world class experts to jumpstart your career and take the movie industry by storm | Learn With VFX Academy">
+<meta property="twitter:image" content="{% static 'img/image828.png' %}"> {% endblock %} {% block extrahead %}
 <link rel="canonical" href="{% url 'about-us' %}" />
-<link rel="stylesheet" href="{% static 'css/about.css' %}" />
-{% endblock %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}" /> {% endblock %} {% block content %}
 
-{% block content %}
 <section class="first-section row col-12 p-0 m-0">
-    <div class="col-md-1 d-none d-md-block px-3 bg-dark">
-    </div>
-    <div class="p-0 row col-12 col-md-8 my-0 mx-auto">
-        <div class=" py-2 px-3 px-md-4 m-0">
-            <img src="{% static 'img/cg-animation-page.webp' %}" class="border rounded-lg" alt="film making">
-        </div>
-        <div class="py-3 px-3 px-md-4">
-            <h1 class="text-white pt-2 pb-0 px-0" style="font-size: 1.7em;">
-                VFX Academy: The Best Film, Visual Effects and CG Animation School in Nigeria
-            </h1>
-            <p class="paragraph text-white pt-1 px-0">
-                Welcome to VFX academy, a place where we teach Visual Effect, Film making and 3D animation
-                with the most awesome atmosphere and with the latest cutting edge tools.
-            </p>
-            <p class="paragraph text-white pt-2">
-                Alot of people enter the media business for fun. Here in VFX Academy, we take the fun seriously.
-                Our faculty body comprises of leading industry professionals. All our faculty are foreign based
-                which provide the best learning experience for their student. Learn more about our world class
-                <a href="{% url 'home' %}" class="text-success">
-                    courses in CG Animation, Visual Effects and Film making
-                </a> at the home page.
-            </p>
-        </div>
-    </div>
-    <div class="col-md-3 px-1 bg-dark py-2">
-        <div class="bg-white col-12 rounded-lg py-4 my-0 ">
-            <h5 class="text-light-blue p-0 ">
-                <span class="pr-2 text-light-blue">
-                    <i class="fas fa-info-circle"></i>
-                </span>
-                EXPLORE OUR COURSES
-            </h5>
-            <p class="paragraph text-light-blue">
-                Explore all our world class courses in CG Animation, Visual Effects and Film Making to
-                determine which is best for you. Use the links
-                below:
-            </p>
-            <div class="list-group">
-                <a href="{% url 'cg-animation' %}" class="list-group-item list-group-item-action text-light-blue">
-                    <span class="pr-2">
-                        <i class="fas fa-external-link-square-alt"></i>
-                    </span>
-                    CG ANIMATION
-                </a>
-                <a href="{% url 'visual-effects' %}" class="list-group-item list-group-item-action text-light-blue">
-                    <span class="pr-2">
-                        <i class="fas fa-external-link-square-alt"></i>
-                    </span>
-                    VISUAL EFFECTS
-                </a>
-                <a href="{% url 'film-making' %}" class="list-group-item list-group-item-action text-light-blue">
-                    <span class="pr-2">
-                        <i class="fas fa-external-link-square-alt"></i>
-                    </span>
-                    FILM MAKING
-                </a>
+    <div class="text-white bg-grey-dark col-12">
+        <div class="container py-5">
+            <div class="row h-100 align-items-center py-5">
+                <div class="col-lg-6">
+                    <h1 class="display-4">About JifteK Digital</h1>
+                    <p class="lead text-muted mb-0">
+                        Jiftek Digital Solution is a world class custom software development &amp; general IT consultancy services company that drives innovation, transformation, and growth at forward-thinking organizations.
+                    </p>
+                    {% comment %}
+                    <p class="lead text-muted">Snippet by
+                        <a href="https://bootstrapious.com/snippets" class="text-muted">
+                            <u>Bootstrapious</u>
+                        </a>
+                    </p>
+                    {% endcomment %}
+                </div>
+                <div class="col-lg-6 d-none d-lg-block"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt="" class="img-fluid"></div>
             </div>
         </div>
     </div>
-</section>
-{% endblock %}
 
-{% block extrascripts %}
+    <div class="text-white py-5 col-12 bg-grey-dark-two">
+        <div class="container py-5">
+            <div class="row align-items-center my-5">
+                <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                    <h2 class="font-weight-light">
+                        What we do
+                    </h2>
+                    <p class="text-muted mb-4 font-italic">
+                        We provide topnotch end-to-end services in strategy, design, and development of software and digital solutions.
+                    </p>
+                    <p class="text-muted mb-4 font-italic">
+                        Jiftek helps companies take advantage of cloud technology through cloud migration to the best &amp; biggest industry players such as Microsoft Azure, Google GCP &amp; Amazon AWS.
+                    </p>
+                    <p class=" text-muted mb-4 font-italic">
+                        We train Software developers, supply Solar, CCTV, UPS &amp; IT equipments. We also install Solar, UPS, CCTV and IT equipments.
+                    </p>
+                    <a href="{% url 'other-services' %}" class="btn btn-light px-5 rounded-pill shadow-sm">
+                        Learn More
+                    </a>
+                </div>
+                <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
+                    <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt="" class="img-fluid mb-4 mb-lg-0 rounded-lg">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 mx-auto">
+                    <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/img-2_vdgqgn.jpg" alt="" class="img-fluid mb-4 mb-lg-0 rounded-lg">
+                </div>
+                <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+                    <h2 class="font-weight-light">What drives us</h2>
+                    <p class="font-italic text-muted mb-4">
+                        We are guided by certain core values which define who we are and how we work. This helps us continue to serve you better. What should you expect when you work with us?
+                    </p>
+                    {% comment %} 
+                    <a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">
+                        Learn More
+                    </a> 
+                    {% endcomment %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-white py-5 col-12 bg-grey-dark">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-lg-5">
+                    <h2 class="display-4 font-weight-light">Our team</h2>
+                    <p class="font-italic text-muted">
+                        Meet just a few of the talented group that will help you solve problems and create value through digital solutions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0 text-light-blue">Ifeanyi Odo</h5><span class="small text-uppercase text-muted">Founder &amp; CEO</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0 text-light-blue">John Doe</h5>
+                        <span class="small text-uppercase text-muted">Software Developer</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4">
+                        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0 text-light-blue">Jane Doe</h5>
+                        <span class="small text-uppercase text-muted">UX/UI Designer</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-1_s02nlg.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0 text-light-blue">Alex Onye</h5><span class="small text-uppercase text-muted">Trainer</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock %} {% block extrascripts %}
 <script type="module" src="{% static 'js/about.js' %}"></script>
 {% endblock %}
